@@ -3,7 +3,7 @@ var io = require('socket.io')(app);
 var fs = require('fs');
 var port = process.env.PORT || 80;
 var leaderboard = [];
-var pass = '20001221';
+var pass = 'this is where my password would be if you were good henry xD';
 
 app.listen(port, function(){
   console.log('listening on port '+port);
