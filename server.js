@@ -1,7 +1,7 @@
 var app = require('http').createServer(handler);
 var io = require('socket.io')(app);
 var fs = require('fs');
-var port = 80;
+var port = process.env.PORT || 80;
 var leaderboard = [];
 var pass = '20001221';
 
