@@ -1,11 +1,11 @@
 {
-  "name": "kkey-server",
+  "name": "Kkey-server",
   "version": "0.0.1",
-  "description": "leaderboard for kkey",
+  "description": "leaderboard server for kkey",
   "dependencies": {
-    "socket.io": "^1.7.3"
+    "socket.io": "*"
   },
-  "scripts": {
-    "start": "node server.js"
-  }
+  "repository": {
+  },
+  "license": "MIT"
 }
