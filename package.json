@@ -1,0 +1,11 @@
+{
+  "name": "kkey-server",
+  "version": "0.0.1",
+  "description": "leaderboard for kkey",
+  "dependencies": {
+    "socket.io": "^1.7.3"
+  },
+  "scripts": {
+    "start": "node server.js"
+  }
+}
